@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deronn | Motivational Youtuber</title>
+   <link rel="icon" type="image/x-icon" href="logonobg.ico">
+   <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+.wrapper{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.wrapper .wrapper__video{
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+    
+
+    
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color:rgb(60, 160, 60);
+      padding: 0;
+      z-index: -2;
+    }
+
+     #logo{
+       width:60px;
+       height:60px;
+       margin:0px;
+     }
+
+    p{
+      color:black;
+    }
+
+    #white {
+      color: white;
+    }
+
+    #yellow {
+      background-color: rgb(60, 160, 60);
+      padding: 5px;
+      margin: 0;
+    }
+
+      button{
+        color:white;
+        background-color:black;
+        width:130px;
+        height:40px;
+        border:1px green;
+        magin:0px;
+      }
+    
+       button:hover{
+        background-color:white;
+        color:black;
+        transition:0.1s;
+      }
+    
+    h1, p{
+      color:white;
+      margin:5px;
+      z-index: 2;
+    }
+       h2, h3{
+      color:rgb(177, 177, 177);
+      margin:5px;
+      margin-left: 15px;
+      font-family: 'Lato', sans-serif;
+      z-index: 2;
+    }
+
+    #img {
+      width: 525px;
+      height: 420px;
+      margin: 2px;
+      border:1.5px solid white;
+    }
+    @media only screen and (max-width: 800px)  {
+         #img {
+      width: 280x;
+      height: 260px;
+      margin: 0px;
+      border:1px solid white;
+       } 
+    }
+    .gallery {
+      margin: 2px;
+      display: inline-block;
+    }
+
+    .gallery img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      margin:10px;
+    }
+
+    .desc {
+      padding: 13px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 5px;
+    }
+
+    h1{
+      margin: 0;
+      font-size:45px;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    nav button {
+      display: inline-block;
+      width: auto;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .scroll-container {
+      width: 90%;
+      max-width: 350px;
+      margin: 40px;
+      padding: 5px;
+    }
+
+    .scroll-page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      font-size: 2em;
+    }
+
+    ::-webkit-scrollbar {
+      width: 14px;
+    }
+
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgb(194, 194, 0);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: orange;
+      border-radius: 16px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: yellow;
+    }
+
+   .container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+     margin:0px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  margin:0px;
+}
+    .button-with-image {
+    display: inline-flex;
+    align-items: center;
+      margin:0px;
+  }
+
+  .button-with-image img {
+    margin-right: 15px;
+    height: 20px;
+    width:100%;
+    margin:0px;
+  }
+
+    #pink{
+      background-color:green;
+      color:white;
+      width:250px;
+      height:50px;
+      border:black;
+    }
+        #pink:hover{
+      background-color:white;
+      color:black;
+      width:250px;
+      height:50px;
+    }
+    #backg{
+      backgound-image:url('backg2.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      width:auto;
+      height:500px;
+      z-index: 2;
+    }
+  </style>
+
+
+  
+</head>
+<body>
+          <a href="https://www.instagram.com/simon.ecoplants/"><button>INSTAGRAM</button></a>
+                <a href="new"><button>What is Ecoplants ?</button></a>
+        <button onclick="scrollToVideos()">VIDEOS</button>
+  <hr style="border-color: white;">
+  
+<header>
+  
+</header>
+  
+        <hr style="border-color: white;">
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+      <center>
+      <div class="container">
+      <div class="image">
+        <img src="simon pic.png" alt="Image" id='img'></image>
+      </div>
+      <div class="text">
+         <h1>MEET SIMON !</h1>
+    </br>
+    <h3>Simon, CEO of EcoPlants, nurtures lush tropical life, cultivating green </h3>
+    </br>
+    <h3> dreams and sustainable paradise for all.</h3>
+    </br>
+    <a href="https://www.instagram.com/simon.ecoplants/"><button id='pink'>Follow-us</button></a>
+    </div>
+      </div>
+
+        </br>
+        </br>
+        </br>
+         </br>
+        </br>
+        <hr style="border-color: white;">
+        </br>
+        </br>
+        </br>
+         </br>
+        <div id='backg'>
+        </br>
+  <h1>Our history</h1>
+  </br>
+  <h2>It has been 3 months since the creaton of ecoplants.  </h2>
+  </br>
+  <h2> At Ecoplants we love to spread the enjoyment of growing plants</h2>
+  </br>
+ </br>
+  <h2> Currently we are growing our second batch of tropical plants </h2>
+        </br>
+  <h2>Want a plant?</h2>
+  </br>
+  </br>
+  </br>
+ <image src='plants'></image>
+ </center>
+</center>
+    </div>
+  </div>
+  <script>
+    function scrollToVideos() {
+      document.getElementById("videos").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
